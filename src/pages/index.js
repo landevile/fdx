@@ -152,6 +152,7 @@ const IndexPage = () => (
 				<div className="col-lg-6 video-img mt-lg-0 mt-4">
               <img src={banner_4} alt="" className="img-fluid" />
 				</div>
+						<div className="btn-3"></div>
 			</div>
 		</div>
 	</div>
