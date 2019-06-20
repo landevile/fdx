@@ -40,7 +40,7 @@ const IndexPage = () => (
 		<div className="clear"></div>
 	</div>
 </header>
-		
+
 <div className="banner" id="home">
 	<div className="container">
 		<div className="row banner-text">
@@ -48,7 +48,7 @@ const IndexPage = () => (
 				<div className="banner-info-grid mt-lg-5">
 					<h2>Every night, any time we are waiting for you. </h2>
 					<p>Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel, ultrices in ligula.
-					Nulla ut sollicitudin velit. Sed porttitor orci vel fermentum maximus. Curabitur ut turpis massa.</p>
+					Nulla ut sollicitudin velit.</p>
 				</div>
 				<a className="btn mr-2" href="index.html#popup4">Start a free trial </a>
 				<a className="btn-2 mr-2" href="index.html#popup2">Watch video </a>
