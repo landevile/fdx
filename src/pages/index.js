@@ -72,26 +72,29 @@ const IndexPage = () => (
 <section className="about py-5" id="about">
 	<div className="container py-lg-5 py-sm-3">
 		<div className="row">
+					<div className="about-text col-lg-5 col-md-7 mt-lg-5">
+						<h3>Interact With Your Users On Every Single Platform</h3>
+						<p className="mt-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel,
+					ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel ferm.</p>
+						<a className="act_btn mt-3" href="index.html#popup3">Get started</a>
+					</div>
 			<div className="col-lg-7 col-md-5 about-img">
             <img src={banner_2} alt="" className="img-fluid" />
 			</div>
-			<div className="col-lg-5 col-md-7 mt-lg-5 about-text">
-				<h3>Interact With Your Users On Every Single Platform</h3>
-				<p className="mt-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel,
-					ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel ferm.</p>
-			</div>
 		</div>
 	</div>
+			
 	<div className="container py-lg-5 py-sm-3">
 		<div className="row">
-			<div className="col-lg-5 col-md-7 mt-lg-5 about-text">
-				<h3>Interact With Your Users On Every Single Platform</h3>
-				<p className="mt-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel,
-					ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel ferm.</p>
-			</div>
 			<div className="col-lg-7 col-md-5 about-img">
             <img src={banner_3} alt="" className="img-fluid" />
 			</div>
+					<div className="col-lg-5 col-md-7 mt-lg-5 about-text">
+						<h3>Interact With Your Users On Every Single Platform</h3>
+						<p className="mt-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel,
+					ultrices in ligula. Nulla uter sollicitudin velit. Sed porttitor orci vel ferm.</p>
+						<a className="act_btn mt-3" href="index.html#popup3">Get started</a>
+		    </div>
 		</div>
 	</div>
 </section>
@@ -147,12 +150,10 @@ const IndexPage = () => (
 				<div className="col-lg-6 video-right px-lg-5 px-2">
 					<h3 className="tittle-w3">What's our clients are saying.</h3>
 					<p className="mt-4">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type.Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.</p>
-
 				</div>
 				<div className="col-lg-6 video-img mt-lg-0 mt-4">
               <img src={banner_4} alt="" className="img-fluid" />
-				</div>
-						<div className="btn-3"></div>
+				</div>		
 			</div>
 		</div>
 	</div>
