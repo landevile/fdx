@@ -1171,7 +1171,7 @@ a.move-top span {
 @media (max-width: 991px) {
   .login-icon {
     position: absolute;
-    right: 10%;
+    right: 23%;
   }
   .sign-icon {
     position: absolute;
@@ -1181,7 +1181,7 @@ a.move-top span {
     font-size: 15px;
   }
   nav ul {
-    margin-right: 3.5em;
+    margin-right: 13.5em;
   }
   #logo a {
     font-size: 0.7em;
@@ -1204,7 +1204,7 @@ a.move-top span {
 
 @media (max-width: 900px) {
   nav ul {
-    margin-right: 5.5em;
+    margin-right: 13.5em;
   }
 }
 @media (max-width: 800px) {
@@ -1245,7 +1245,7 @@ a.move-top span {
     font-size: 26px;
   }
   .login-icon {
-    right: 11%;
+    right: 38%;
   }
   .sign-icon {
     right: 23%;

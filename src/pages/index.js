@@ -25,7 +25,6 @@ const IndexPage = () => (
 			<label for="drop" className="toggle"><span className="fa fa-bars" aria-hidden="true"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul className="menu mt-2 ml-auto">
-				<li className=""><a href="index.html#about">About Us</a></li>
 				<li className=""><a href="#">Features</a></li>
 				<li className=""><a href="#">Plans</a></li>
 				<li className=""><a href="contact.html">Contact</a></li>
@@ -70,8 +69,8 @@ const IndexPage = () => (
 </section>
 
 <section className="about py-5" id="about">
-	<div className="container py-lg-5 py-sm-3">
-		<div className="row">
+	<div className="container py-lg-5 py-sm-5">
+				<div className="row flex-column-reverse flex-lg-row">
 					<div className="about-text col-lg-5 col-md-7 mt-lg-5">
 						<h3>Interact With Your Users On Every Single Platform</h3>
 						<p className="mt-3">Integer pulvinar leo id viverra feugiat. Pellentesque libero justo, semper at tempus vel,
@@ -84,7 +83,7 @@ const IndexPage = () => (
 		</div>
 	</div>
 			
-	<div className="container py-lg-5 py-sm-3">
+	<div className="container py-lg-5 py-sm-5">
 		<div className="row">
 			<div className="col-lg-7 col-md-5 about-img">
             <img src={banner_3} alt="" className="img-fluid" />
