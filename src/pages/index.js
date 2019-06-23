@@ -25,7 +25,7 @@ const IndexPage = () => (
 			<label for="drop" className="toggle"><span className="fa fa-bars" aria-hidden="true"></span></label>
 			<input type="checkbox" id="drop" />
 			<ul className="menu mt-2 ml-auto">
-				<li className=""><a href="#">Features</a></li>
+						<li className=""><Link to="/page-2">Features</Link></li>
 				<li className=""><a href="#">Plans</a></li>
 				<li className=""><a href="contact.html">Contact</a></li>
 			</ul>
